@@ -27,9 +27,6 @@ jobs:
           context: .
           push: true
           tags: prfagun1/ci-go:latest
-          buld-args: |
-            exemplo1=valor1
-            exemplo2=valor2
 
       - name: Login to DockerHub
         uses: docker/login-action@v2
